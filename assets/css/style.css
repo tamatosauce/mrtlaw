@@ -178,7 +178,6 @@ li {
 
 #header .logo img {
   max-height: 80px;
-  width: 100%;
 }
 
 @media (max-width: 992px) {
@@ -2851,4 +2850,10 @@ header .container {
     padding: 5px;
     max-width: 200px;
   }
+
+  #logoImg {
+    width: 100%;
+    margin-top: 15px;
+  }
+
 }
