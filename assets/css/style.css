@@ -178,6 +178,7 @@ li {
 
 #header .logo img {
   max-height: 80px;
+  width: 100%;
 }
 
 @media (max-width: 992px) {
@@ -2732,7 +2733,7 @@ header .container {
     font-size: 10px;
     letter-spacing: 0.5px;
     display: inline-block;
-    padding: 14px 50px;
+    padding: 14px 12px;
     border-radius: 5px;
     transition: 0.5s;
     margin-top: 30px;
@@ -2836,5 +2837,18 @@ header .container {
     width: 100%; 
     padding-top: 50px;
 
+  }
+}
+
+#logodiv {
+  margin-left: 50px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1250px) {
+  #logodiv {
+    margin-left: 0px;
+    padding: 5px;
+    max-width: 200px;
   }
 }
