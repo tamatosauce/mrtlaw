@@ -117,17 +117,14 @@
         <div class="carousel-inner" role="listbox">
 
           <div class="carousel-item active">
-            <div class="carousel-background" style="filter: brightness(65%); "><img src="assets/img/sliders/slider2.jpg" alt=""></div>
+            <div class="carousel-container" style="filter: brightness(65%); "><img src="assets/img/sliders/slider2.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <div class="row" style="justify-content: center;">
                   <div class="" style="padding-right: 0px; padding-left: 0px;">
                     <a href="https://www.facebook.com/mrtlawteam/" class="col " target="_blank"><img src="assets/img/social/icons01.png"/></a>
-                    <!-- <a href="" class="col soc" target="_blank"><img src="assets/img/social/icons02.png"/></a> -->
-                    <!-- <a href="" class="col soc" target="_blank"><img src="assets/img/social/icons03.png"/></a> -->
                     <a href="https://za.linkedin.com/company/mrt-law-inc" class="col soc" target="_blank"><img src="assets/img/social/icons04.png"/></a>
                   </div>
-                  <!-- <a href="" style="" class="col soc" target="_blank"><img src="assets/img/social/icons05.png"/></a> -->
                 </div>
                 <div class="row" style="padding-top: 5%;">
                   <div class="col-lg-12">
@@ -139,7 +136,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background" style="filter: brightness(60%); "><img src="assets/img/sliders/slider1.jpg" alt=""></div>
+            <div class="carousel-container" style="filter: brightness(60%); "><img src="assets/img/sliders/slider1.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <div class="row" style="justify-content: center;">
@@ -160,7 +157,7 @@
           </div>
 
           <div class="carousel-item" >
-            <div class="carousel-background" style="filter: brightness(60%); "><img src="assets/img/sliders/slider3.jpg" alt=""></div>
+            <div class="carousel-container bounding-box" style="filter: brightness(60%); "></div>
               <div class="carousel-container">
                 <div class="carousel-content">
                   <div class="row" style="justify-content: center;">
@@ -216,7 +213,14 @@
     </div>
     <div class="section-title text-center goldbanner" style="background-color: #C7A366;">
       <!-- <h2 style="color: white;">Our Team</h2> -->
-      <p id="goldtext" style="color: white; padding-top: 1%;">MRT expansion: We have opened our Johannesburg Office!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introducing the POPIA Act in South Africa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MRT Holdings, coming soon</p>
+      <div class="container" style="    max-width: 100%;">
+        <div style="display: flex;">
+          <p class="" id="goldtext" style="color: white; padding-top: 1%;">MRT expansion: We have opened our Johannesburg Office!</p>
+          <p class="" id="goldtext" style="color: white; padding-top: 1%;">Introducing the POPIA Act in South Africa</p>
+          <p class="" id="goldtext" style="color: white; padding-top: 1%;">MRT Holdings, coming soon</p>
+
+        </div>
+      </div>
     </div>
   </section><!-- #intro -->
 <!-- ======= Cta Section ======= -->
@@ -357,14 +361,16 @@
         <div class="wrapper">
 
           <div id="one"   style="margin-left: 5%; ">
-            <img style=" width: 100%; height: auto;" src="assets/img/aboutMain.png" class="" alt="">
+            <img style="    width: 65%;
+            display: flex;
+            height: auto;" src="assets/img/aboutMain.png" class="" alt="">
             <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a> -->
           </div>
 
           <div id="two"   style="margin-left: 5%; margin-right: 5%;">
             <div class="section-title">
               <img style=" max-width: 100%; height: auto; padding-bottom: 10px;" src="assets/img/headings/aboutus.png" alt="">
-            </br></br><p style="font-size: 2vw;"><strong>&ldquo;We come to you, solve your legal complexities, and simplify lawyering!&rdquo;</strong></p>
+            </br></br><p id="abouttextheader" ><strong>&ldquo;We come to you, solve your legal complexities, and simplify lawyering!&rdquo;</strong></p>
             </div>
             <p id="abouttext" class="text-center">
               We introduce your new partner in business: MRT LAW a corporate and commercial boutique law firm. We continuously challenge the constraints of conventional thinking and 
@@ -629,7 +635,7 @@
           </div>
 
           <div class="columnz"  >
-            <div class="member" style="box-shadow: 3px 3px 5px 3px gray;">
+            <div id="mish" class="member" style="box-shadow: 3px 3px 5px 3px gray;">
               <div class="member-img">
                 <a href="mish.html"><img src="assets/img/team/team-3.png" class="img-fluid" alt=""></a>
                 <!-- <div class="social">
@@ -652,7 +658,7 @@
           </div>
 
           <div class="columnz"  >
-            <div class="member" style="box-shadow: 3px 3px 5px 3px gray;">
+            <div id="zuns" class="member" style="box-shadow: 3px 3px 5px 3px gray;">
               <div class="member-img">
                 <a href="zun.html"><img src="assets/img/team/team-4.png" class="img-fluid" alt=""></a>
                 <!-- <div class="social">
@@ -674,8 +680,8 @@
             </div>
           </div>
           <div id="zik" class="columnz"  >
-            <div class="member" style="box-shadow: 3px 3px 5px 3px gray;">
-              <div class="member-img">
+            <div id="ziks" class="member" style="box-shadow: 3px 3px 5px 3px gray;">
+              <div  class="member-img">
                 <a href="zik.html"><img src="assets/img/team/team-5.png" class="img-fluid" alt=""></a>
                 <!-- <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
@@ -1375,10 +1381,10 @@
       </header>
     </section>
 
-    <Section id='contactform' style="background-color: #C7A366; ">
+    <Section id='contactform' style="background-color: #C7A366; padding: 40px;">
       <div class="container">
-        <div class="section-title text-center" >
-          <h3 style="color: white; padding-bottom: 50px;" class="">G E T&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;F R E E&nbsp;&nbsp;&nbsp;Q U O T E</h3>
+        <div class="section-title text-center" style="padding: 0px;">
+          <h3 style="color: white; ;" class="">G E T&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;F R E E&nbsp;&nbsp;&nbsp;Q U O T E</h3>
 
           <!-- <div class="col-lg-4">
             <div class="info">
