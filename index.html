@@ -1348,13 +1348,21 @@
           <!-- <h2 style="color: white;">Our Team</h2> -->
           <h3 style="color: white;">Subscribe to our newsletter to stay up to date with MRT LAW and the latest legal news</h3>
         </div>
-        <div class="text-center" style="    display: flex;
-        justify-content: center;">
+        <div id="popup1" class="overlay">
+          <div style="padding-top: 5px;" class="popup">
+            <h2>Thank you!</h2>
+            <a class="close" href="">&times;</a>
+            <div class="content">
+              Your request has been submitted
+            </div>
+          </div>
+        </div>
+        <div class="text-center" style="display: flex;justify-content: center;">
           <form action="forms/newsletter.php" method="post" role="form" class="php-email-form" style="width: 30%;">
             <div class="row" style="padding-bottom: 15px;">
                 <input type="email" class="form-control" style="background-color: rgb(223, 222, 219);" name="news_email" id="news_email" placeholder="Email" data-rule="news_email" data-msg="Please enter a valid email" />
               <div class="">
-                <button class="btn-get-started" type="submit">SUBSCRIBE TO OUR NEWSLETTER</button>
+                <a class="btn-get-started" href="#popup1" type="submit">SUBSCRIBE TO OUR NEWSLETTER</a>
               </div>
             </div>
           </form>
@@ -1438,7 +1446,9 @@
                   <div class="validate"></div>
               </div>
               <div class="form-row" style="justify-content: center;">
-                <button id="sendRequest" style="padding: 20px 20px 20px 20px; background: #2B2F38; width: 100%; color: white; font-family: 'century-gothic', sans-serif" type="submit">Send Request</button>
+                <!-- <button id="sendRequest" style="padding: 20px 20px 20px 20px; background: #2B2F38; width: 100%; color: white; font-family: 'century-gothic', sans-serif" type="submit">Send Request</button> -->
+                <a id="sendRequest" style="padding: 20px 20px 20px 20px; background: #2B2F38; width: 100%; color: white; font-family: 'century-gothic', sans-serif" href="#popup1" type="submit">Send Request</a>
+              
               </div>
             </form>
           </div>
